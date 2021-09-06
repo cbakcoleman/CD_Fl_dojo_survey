@@ -11,9 +11,9 @@
 <body class="container">
     <div class="ninja_form">
         <h1>{{ session['name'] }}</h1>
-        <p>Dojo Location: {{ session['location'] }}</p>
-        <p>Favorite Language: {{ session['language'] }}</p>
-        <p>Comments: {{ session['comments'] }}</p>
+        <p>Dojo Location: <span class="output">{{ session['location'] }}</span></p>
+        <p>Favorite Language: <span class="output">{{ session['language'] }}</span></p>
+        <p>Comments: <span class="output">{{ session['comments'] }}</span></p>
 
         <a href="/"><input class="ninja_button" type="button" value="Home"></a>
     </div>
